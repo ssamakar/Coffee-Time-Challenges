@@ -8,6 +8,8 @@ for (var i = 1; i<=10000; i++){
 	oneToTenThousand.push(i);
 }
 
+
+//right now this takes "99" and adds it as "9" and "9"... not good
 for (var j = 0; j < oneToTenThousand.length; j++){
 	num = oneToTenThousand[j].toString();
 	for (var k = 0; k < num.length; k++){
